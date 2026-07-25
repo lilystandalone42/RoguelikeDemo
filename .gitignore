@@ -1,0 +1,19 @@
+# UE generated
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# IDE
+.idea/
+.vscode/
+*.xcworkspace/
+*.xcodeproj/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled
+*.sln
