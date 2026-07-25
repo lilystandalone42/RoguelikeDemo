@@ -11,5 +11,6 @@ public class RoguelikeDemoTarget : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
 		ExtraModuleNames.Add("RoguelikeDemo");
+		bWarningsAsErrors = false;
 	}
 }

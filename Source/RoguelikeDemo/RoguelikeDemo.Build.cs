@@ -1,5 +1,3 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
 using UnrealBuildTool;
 
 public class RoguelikeDemo : ModuleRules
@@ -8,6 +6,18 @@ public class RoguelikeDemo : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "NavigationSystem", "AIModule", "Niagara", "EnhancedInput" });
-    }
+		PublicIncludePaths.AddRange(new string[] { ModuleDirectory });
+
+		PublicDependencyModuleNames.AddRange(new string[] {
+			"Core",
+			"CoreUObject",
+			"Engine",
+			"InputCore",
+			"NavigationSystem",
+			"AIModule",
+			"Niagara",
+			"EnhancedInput",
+			"GameplayTags"
+		});
+	}
 }
