@@ -10,6 +10,10 @@ use engine primitive shapes (cubes, cylinders, spheres) as placeholders.
 
 > If the player doesn't load inline, [click here to watch the clip](docs/gameplay.mp4).
 
+![Systems overview: HUD, room-cleared portal, and a health pickup](docs/overview.png)
+
+*A cleared room: the Canvas HUD (top-left), the exit portal to the next room, and a random buff pickup — all visible at once.*
+
 ## Features
 
 ### Combat
