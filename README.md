@@ -4,6 +4,12 @@ A top-down, Hades-style roguelike combat demo built in **Unreal Engine 5.4** wit
 It is a gameplay-programming showcase — mechanics and systems are the focus, so visuals
 use engine primitive shapes (cubes, cylinders, spheres) as placeholders.
 
+## Gameplay
+
+<video src="https://github.com/lilystandalone42/RoguelikeDemo/raw/main/docs/gameplay.mp4" autoplay loop muted playsinline controls width="720"></video>
+
+> If the player doesn't load inline, [click here to watch the clip](docs/gameplay.mp4).
+
 ## Features
 
 ### Combat
